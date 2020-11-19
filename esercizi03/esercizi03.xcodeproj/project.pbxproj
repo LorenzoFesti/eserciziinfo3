@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBD3791F2566B40F0066E014 /* section_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD3791D2566B40F0066E014 /* section_string.cpp */; };
+		CBD379262566C64A0066E014 /* tokenfinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBD379242566C64A0066E014 /* tokenfinder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +36,8 @@
 		CBD379032566B2970066E014 /* esercizi03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = esercizi03; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD379142566B3F90066E014 /* section_string */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section_string; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD3791D2566B40F0066E014 /* section_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = section_string.cpp; sourceTree = "<group>"; };
-		CBD3791E2566B40F0066E014 /* section_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = section_string.hpp; sourceTree = "<group>"; };
+		CBD379242566C64A0066E014 /* tokenfinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tokenfinder.cpp; sourceTree = "<group>"; };
+		CBD379252566C64A0066E014 /* tokenfinder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tokenfinder.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				CBD3791D2566B40F0066E014 /* section_string.cpp */,
-				CBD3791E2566B40F0066E014 /* section_string.hpp */,
+				CBD379242566C64A0066E014 /* tokenfinder.cpp */,
+				CBD379252566C64A0066E014 /* tokenfinder.hpp */,
 			);
 			path = section_string;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD3791F2566B40F0066E014 /* section_string.cpp in Sources */,
+				CBD379262566C64A0066E014 /* tokenfinder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
